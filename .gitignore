@@ -1,0 +1,14 @@
+.terraform/
+.terraform.lock.hcl
+
+*.tfstate
+*.tfstate.*
+crash.log
+*.hcl
+
+output_*.json
+
+.vscode/
+.vs/
+*.swp
+*.swo
