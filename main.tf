@@ -15,7 +15,6 @@ terraform {
 provider "local" {}
 provider "random" {}
 
-# Call our reusable module
 module "app_cluster" {
   source       = "./modules/server_cluster"
   cluster_name = var.cluster_name
